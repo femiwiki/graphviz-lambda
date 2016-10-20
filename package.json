@@ -1,13 +1,13 @@
 {
-  "name": "graphviz-lambda",
+  "name": "fw-api-graphviz",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "deploy": "claudia create --region eu-east-1 --api-module app",
-    "update": "claudia update"
+    "create": "claudia create --region ap-northeast-2--api-module app --profile fw",
+    "update": "claudia update --profile fw"
   },
-  "author": "Chris Nesbitt-Smith",
+  "author": "suyooktang@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "claudia": "^2.0.2"
