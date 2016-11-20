@@ -1,10 +1,10 @@
 {
-  "name": "fw-api-graphviz",
+  "name": "fw-graphviz-lambda",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "create": "claudia create --region ap-northeast-2--api-module app --profile fw",
+    "create": "claudia create --region ap-northeast-2 --api-module app --profile fw",
     "update": "claudia update --profile fw"
   },
   "author": "suyooktang@gmail.com",
