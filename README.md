@@ -1,3 +1,7 @@
+*__DISCLAIMER__: Femiwiki does not service the graphvis-lambda API anymore.*
+
+&nbsp;
+
 graphviz-lambda
 ========
 A simple web service that renders DOT files as svg. Forked from https://github.com/chrisns/graphviz-lambda
@@ -12,10 +16,10 @@ digraph {
     A -> {B, C};
 }
 
-$ curl 'https://crtp5x4dz4.execute-api.ap-northeast-2.amazonaws.com/latest/svg?url=https://pastebin.com/raw/muh0hTaF'
+$ curl 'https://xxxxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/latest/svg?url=https://pastebin.com/raw/muh0hTaF'
 ```
 
-![](https://crtp5x4dz4.execute-api.ap-northeast-2.amazonaws.com/latest/svg?url=https://pastebin.com/raw/muh0hTaF)
+![Example Output Image](example.svg)
 
 &nbsp;
 
@@ -25,7 +29,10 @@ Instructions
 # Prepare the AWS credentials
 
 yarn
+yarn claudia create --region ap-northeast-2 --api-module app
 yarn claudia update
+
+# See https://claudiajs.com/tutorials/hello-world-api-gateway.html for further details
 ```
 
 &nbsp;
