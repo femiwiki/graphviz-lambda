@@ -16,3 +16,14 @@ $ curl 'https://crtp5x4dz4.execute-api.ap-northeast-2.amazonaws.com/latest/svg?u
 ```
 
 ![](https://crtp5x4dz4.execute-api.ap-northeast-2.amazonaws.com/latest/svg?url=https://pastebin.com/raw/muh0hTaF)
+
+&nbsp;
+
+Instructions
+--------
+```sh
+# Prepare the AWS credentials
+
+yarn
+yarn claudia update
+```
