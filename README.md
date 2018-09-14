@@ -1,10 +1,18 @@
-Derived from https://github.com/chrisns/graphviz-lambda
+graphviz-lambda
+========
+A simple web service that renders DOT files as svg. Forked from https://github.com/chrisns/graphviz-lambda
 
-Example:
+```console
+$ curl https://pastebin.com/raw/muh0hTaF
+digraph {
+    A [label="여혐"];
+    B [label="여성혐오"];
+    C [label="문학계 여혐"];
+    C [label="과학계 여혐"];
+    A -> {B, C};
+}
 
-    https://crtp5x4dz4.execute-api.ap-northeast-2.amazonaws.com/latest/svg?url=https://raw.githubusercontent.com/femiwiki/graphviz-lambda/master/example.dot
+$ curl 'https://crtp5x4dz4.execute-api.ap-northeast-2.amazonaws.com/latest/svg?url=https://pastebin.com/raw/muh0hTaF'
+```
 
-Result:
-
-![](https://crtp5x4dz4.execute-api.ap-northeast-2.amazonaws.com/latest/svg?url=https://raw.githubusercontent.com/femiwiki/graphviz-lambda/master/example.dot)
-
+![](https://crtp5x4dz4.execute-api.ap-northeast-2.amazonaws.com/latest/svg?url=https://pastebin.com/raw/muh0hTaF)
