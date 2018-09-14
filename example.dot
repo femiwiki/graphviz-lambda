@@ -1,9 +1,5 @@
-// The Round Table
 digraph {
-    A [label="King Arthur"]
-    B [label="Sir Bedevere the Wise"]
-    L [label="Sir Lancelot the Brave"]
-        A -> B
-        A -> L
-        B -> L [constraint=false]
+    A [label="페미위키"];
+    B [label="Graphviz"];
+    A -> B;
 }
