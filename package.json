@@ -1,19 +1,11 @@
 {
   "name": "fw-graphviz-lambda",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "create": "claudia create --region ap-northeast-2 --api-module app --profile fw",
-    "update": "claudia update --profile fw"
-  },
-  "author": "suyooktang@gmail.com",
-  "license": "MIT",
+  "version": "0.0.0",
   "devDependencies": {
-    "claudia": "^2.0.2"
+    "claudia": "^5.1.1"
   },
   "dependencies": {
-    "claudia-api-builder": "^2.0.0",
+    "claudia-api-builder": "^4.1.1",
     "request": "^2.75.0",
     "request-promise-native": "^1.0.3"
   }
